@@ -7,7 +7,12 @@
 
     <!-- Icons -->
     <link rel="stylesheet" href="./assets/fonts/style.css" />
-    n
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
 
     <!-- Styles css -->
     <link rel="stylesheet" href="./style.css" />
@@ -42,6 +47,7 @@
     </header>
 
     <main>
+      <!-- Section Home -->
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
@@ -64,6 +70,7 @@
 
       <div class="divider-1"></div>
 
+      <!-- Section About -->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
@@ -100,6 +107,7 @@
 
       <div class="divider-2"></div>
 
+      <!-- Section Services -->
       <section class="section" id="services">
         <div class="container grid">
           <header>
@@ -139,17 +147,120 @@
         </div>
       </section>
 
+      <div class="divider-1"></div>
+
+      <!-- Section Testimonials -->
       <section class="section" id="testimonials">
-        <div class="container grid"></div>
+        <div class="container swiper">
+          <header>
+            <h2 class="title">Depoimentos de quem já passou por aqui</h2>
+          </header>
+          <div class="testimonials swiper-container">
+            <div class="swiper-wrapper">
+              <div class="testimonal swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Eu sou cliente do Beautysalon há 5 anos e não troco por
+                    nada! Certamente meu cabelo mudou muito depois que comecei a
+                    tratar somente com produtos naturais e veganos. São
+                    profissionais incríveis e qualificados.
+                  </p>
+                  <cite>
+                    <img
+                      src="./assets/pictures/Wanessa.jpg"
+                      alt="Mulher negra de cabelo curto a sorrir"
+                    />
+                    Wanessa Souza
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonal swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Blanditiis expedita explicabo voluptatem! Accusantium, saepe
+                    distinctio nisi, neque hic perferendis molestias est harum,
+                    asperiores officiis sed placeat dicta. Voluptate, deleniti
+                    dolore.
+                  </p>
+                  <cite>
+                    <img
+                      src="./assets/pictures/francisco.jpg"
+                      alt="Foto de Francisco Santos"
+                    />
+                    Francisco Santos
+                  </cite>
+                </blockquote>
+              </div>
+
+              <div class="testimonal swiper-slide">
+                <blockquote>
+                  <p>
+                    <span>&ldquo;</span>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Eveniet quasi quibusdam quidem velit, vel veritatis
+                    consequuntur facere. Quibusdam consequatur quis, voluptatum
+                    quas blanditiis alias impedit. Minus at magnam cupiditate
+                    ratione.
+                  </p>
+                  <cite>
+                    <img
+                      src="./assets/pictures/Valeska.jpg"
+                      alt="Foto de Valeska Fabris"
+                    />
+                    Valeska Fabris
+                  </cite>
+                </blockquote>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
       </section>
 
+      <div class="divider-2"></div>
+
+      <!-- Section Contact -->
       <section class="section" id="contact">
-        <div class="container grid"></div>
+        <div class="container grid">
+          <div class="text">
+            <h2 class="title">Entre em contato com a gente!</h2>
+            <p>
+              Entre em contato com a Beautysalon, queremos tirar suas dúvidas,
+              ouvir suas críticas e sugestões.
+            </p>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5511998456754&text=Olá!%20Gostaria%20de%20agendar%20uma%20marcação.%20Tem%20vagas?"
+              class="button"
+              target="_blank"
+              ><i class="icon-whatsapp"></i> Entrar em contacto</a
+            >
+          </div>
+
+          <div class="links">
+            <ul class="grid">
+              <li><i class="icon-phone"></i>11 99845-6754</li>
+              <li><i class="icon-map-pin"></i>R. Amauri Souza, 346</li>
+              <li><i class="icon-mail"></i>contato@beautysalon.com</li>
+            </ul>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer></footer>
 
+    <!-- Swiper -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- main.js -->
     <script src="./main.js"></script>
   </body>
 </html>
