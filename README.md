@@ -20,7 +20,7 @@ This project was developed with the following technologies:
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-Libraries:
+📚Libraries:
 
 - [Google Fonts](https://fonts.google.com/)
 - [SwipeJS](https://swiperjs.com/)
